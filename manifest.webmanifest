@@ -1,0 +1,38 @@
+{
+  "name": "Bolita · mascota en grupo",
+  "short_name": "Bolita",
+  "description": "Cuida a Bolita, un gato virtual, junto a tus amigos. Funciona sin internet.",
+  "lang": "es",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#17163A",
+  "theme_color": "#17163A",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

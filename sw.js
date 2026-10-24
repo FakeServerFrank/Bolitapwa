@@ -1,7 +1,7 @@
 // Bolita · service worker (funciona sin internet). Sube la versión al actualizar la app.
-const V = 'bolita-v1';
+const V = 'bolita-v2';
 const CDN = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
-const CORE = ['./', './index.html'];
+const CORE = ['./', './index.html', './manifest.webmanifest', './icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil((async () => {
